@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: first-service
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+
